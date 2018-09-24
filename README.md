@@ -3,14 +3,14 @@ This web app is a project for Udacity - Full Stack Web Developer Nanodegree.
 
 ## About
 This application uses React JS to build a interactive map using Google Maps API, placing markers of my favorite places in Gramado - RS. You can click on the markers to look for additional information grabbed from Foursquare, and the web application also contains a clickable list with all the locations where you can pop-up information about some location just clicking on its name. The application also offers a search bar that makes easy to filter the location items and the markers placed on the map.
-<img src="screen.png" width="100%" />
-<img src="filter.png" width="100%" />
-<img src="infowindow.png" width="100%" />
+<img src="images/screen.png" width="100%" />
+<img src="images/filter.png" width="100%" />
+<img src="images/infowindow.png" width="100%" />
 
 ## Responsive
 Adjustable screen for tablet and mobile
-<img src="tablet.png" width="60%" />
-<img src="smartphone.png" width="40%" />
+<img src="images/tablet.png" width="60%" />
+<img src="images/smartphone.png" width="40%" />
 
 ## Usage
 1. You need to have a recent version (>=6.0) Node JS installed in your computer. If you don't, go to https://nodejs.org/en/download/;
