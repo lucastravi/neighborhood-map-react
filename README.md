@@ -9,6 +9,7 @@ This application uses React JS to build a interactive map using Google Maps API,
 
 ## Responsive
 Adjustable screen for tablet and mobile
+
 <img src="images/tablet.png" width="60%" />
 <img src="images/smartphone.png" width="40%" />
 
