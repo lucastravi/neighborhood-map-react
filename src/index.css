@@ -1,0 +1,130 @@
+html, body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family:Courier New;
+}
+
+#map {
+  height: 100vh;
+  position: relative;
+}
+
+.info-title {
+  font-size: 2em;
+  font-weight: 900;
+  color: #0a1933;
+  padding-bottom: 2%;
+}
+
+.info-address {
+  font-size: 1.25em;
+  color: #0a1933;
+}
+
+.locations-list {
+  padding-top: 2.5vh;
+  top: 33vh;
+  background-color: rgba(68, 68, 68, .7);
+  width: 20vw;
+  height: 33vh;
+  position: absolute;
+  z-index: 100;
+  left: 5vw;
+}
+
+.list-item {
+  color: #009675;
+  font-size: 1.5em;
+  background-color: #444444;
+  text-decoration: none;
+  list-style-type: none;
+  border: 1px solid #009675;
+  cursor: pointer;
+  margin-right: 2.5vw;
+  margin-bottom: 1.5vh;
+  padding: 1vh;
+}
+
+input {
+  top: 5vh;
+  width: 60vw;
+  position: absolute;
+  z-index: 101;
+  left: 20vw;
+  height: 5vh;
+  font-size: 2em;
+  color: #009675;
+  background-color: rgba(68, 68, 68, .7);
+}
+
+/*
+Adjust the application to tablets (tested on iPad)
+*/
+@media only screen
+and (min-device-width : 768px) 
+and (max-device-width : 1024px){
+  .locations-list {
+    width: 35vw;
+    height: 40vh;
+    left: 1vw;
+    top: 30vh;
+  }
+
+  .list-item {
+    font-size: 1.25em;
+    margin-right: 15%;
+    margin-bottom: 2vh;
+  }
+
+  input {
+    width: 80vw;
+    left: 10vw;
+    top: 7.5vh;
+  }
+}
+
+/*
+Adjust the application to mobiles (tested on Nexus5)
+*/
+@media only screen
+and (min-device-width : 360px)
+and (max-device-width : 640px) {
+  .info-title {
+    font-size: .75em;
+    font-weight: 900;
+    color: #0a1933;
+    padding-bottom: 2%;
+  }
+  
+  .info-address {
+    font-size: .75em;
+    color: #0a1933;
+  }
+
+  .info-category {
+    font-size: .75em;
+  }
+
+  .locations-list {
+    font-size: .75em;
+    width: 30vw;
+    height: 50vh;
+    left: 1vw;
+    top: 25vh;
+  }
+
+  .list-item {
+    
+    font-size: 1.25em;
+    margin-left: -10vw;
+    margin-bottom: 2vh;
+  }
+
+  input {
+    width: 60vw;
+    top: 10vh;
+    font-size: 1em;
+  }
+
+}
