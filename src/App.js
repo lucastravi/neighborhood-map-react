@@ -170,6 +170,7 @@ class App extends React.Component {
         .catch(
           error => {
           console.log("Error! " + error)
+          alert("Erro na API do Foursquare, favor recarregar a página");
         })
     }
 
@@ -195,6 +196,10 @@ class App extends React.Component {
   }
 };
 
+function googleError() {
+  alert("Ocorreu um erro ao carregar o mapa. Recarregue a página.")
+}
+
 // This function reads the script to use the Google Maps API
 function loadScript(url) {
   var index  = window.document.getElementsByTagName("script")[0]
@@ -202,6 +207,7 @@ function loadScript(url) {
   script.src = url
   script.async = true
   script.defer = true
+  script.oneror = googleError()
   index.parentNode.insertBefore(script, index)
 };
 
