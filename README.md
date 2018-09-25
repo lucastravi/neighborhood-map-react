@@ -16,7 +16,7 @@ Adjustable screen for tablet and mobile
 ## Usage
 1. You need to have a recent version (>=6.0) Node JS installed in your computer. If you don't, go to https://nodejs.org/en/download/;
 2. After install Node JS, you can start a React JS application in your own computer;
-3. Download or clone this repo from Github and go to the '/neighborhood-map' directory;
+3. Download or clone this repo from Github and go to the '/neighborhood-map-react' directory;
 4. Install all the modules required to run this application by running '$ npm install';
 5. After the installation, run '$ npm start' and the application must open your browser in http://localhost:3000/;
 
